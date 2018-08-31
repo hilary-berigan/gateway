@@ -25,7 +25,7 @@ class PayloadCreator
 
 	def VaultCreateAchRecord(input)
 		data = {
-      'vaultKey' => input[1] || "",
+            'vaultKey' => input[1] || "",
 			'aba' => input[2] || "",
 			'accountType' => input[3] || "",
 			'dda' => input[4] || "",
